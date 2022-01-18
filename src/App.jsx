@@ -23,8 +23,7 @@ const App = () => {
 
   // Another useEffect!
   useEffect(() => {
-    // We pass the signer to the sdk, which enables us to interact with
-    // our deployed contract!
+    // We pass the signer to the sdk, which enables us to interact with our deployed contract! 
     sdk.setProviderOrSigner(signer);
   }, [signer]);
 
